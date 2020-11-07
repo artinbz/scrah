@@ -1,2 +1,7 @@
-for i in range(7 , 100 , 7):
-    print(i)
+string = "im god/:hgrjjhbvkfgjrrur6uryuruygi"
+lenth = len (string)
+print(lenth)
+for i in range(lenth):
+
+  print(i)
+  
