@@ -1,16 +1,19 @@
 day = input("enter numbber of day: ")
 
-if day == '1':
-    print('yek')
-if day == '2':
-    print('yek')
-if day == '3':
-    print('')
-if day == '4':
-    print('se')
-if day == '5':
-    print('cha')
-if day == '6':
-    print('pan')
-if day == '7':
-    print('jo')
+if   day == '1':
+    print('shanbeh')
+elif day == '2':
+    print('yekshanbeh')
+elif day == '3':
+    print('doshanbeh')
+elif day == '4':
+    print('seshanbeh')
+elif day == '5':
+    print('chaharshanbeh')
+elif day == '6':
+    print('panjshanbeh')
+elif day == '7':
+    print('jomee')
+else:
+    print('eshtebah dari mizani!!!!!!!!')
+
