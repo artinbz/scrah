@@ -4,7 +4,7 @@ import random as rnd
 shape = input ("Enter witch shape square/traiangle?(s/t)")
 
 if shape == 's':
-tr.speed(10000)
+tr.speed(100)
 for j in range(100):
 tr.penup()
 x_position = rnd.randint(-400, 300)
