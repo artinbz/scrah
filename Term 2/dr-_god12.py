@@ -1,6 +1,6 @@
 import turtle as tr
 
-shape = input("enter which shape square/triangle?9s/t")
+shape = input("enter which shape square/triangle?s/t")
 if shape == 't':
    for i in range(4):
     tr.fd(150)
