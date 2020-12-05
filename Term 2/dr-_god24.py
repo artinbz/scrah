@@ -1,13 +1,13 @@
 number = input("Enter Number: ")
 counter = 0
-number = []
+numbers = []
 s = 0 
 while number != '0':
     if number.isdigit():
         number.append(number) 
-    number = input("enter number: ")
-    counter += 1
-for i in number:
+         counter += 1
+     number = input("enter number: ")
+for i in numbers:
     s = s + int(n)
 print(number)
 print(s)
