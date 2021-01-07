@@ -1,11 +1,15 @@
-import requests
+def get_info():
+    txt = input('enter your information:(name family age\n')
+    return txt .split()
 
-from bs4 import BeautifulSoup
 
-url = "https://bama.ir/car/peykan/all-models/all-trims?page=1"
-data = requests.get(url)
-soup = BeautifulSoup(data.txt,'html.parser')
-p_tags = soup.find_all('p', class_="shortdesc removeEmoji")
-for p_tag in p_tags:
-    print(p_tag.text)
-    
+info = get_info()
+
+template = f"""
+name : {info[0].title()}
+last : {info[1].upper()}
+age :{info[2]}
+**************************"""
+file = open('names.txt', 'a')
+file. write(template)
+file. close()
